@@ -97,7 +97,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 /*- bloger details --*/
 .bloger_box{background: url(../images/blog_bottom.jpg) no-repeat;min-height:208px; position: relative;background-size: 100% 100%;margin-top: 50px;}
 
-.blogger_img_box{border: 1px solid #eff5fc;height: 280px;width: 247px;float: left;position: absolute;top: -36px;background: #fff;
+.blogger_img_box{overflow:hidden;border: 1px solid #eff5fc;height: 280px;width: 247px;float: left;position: absolute;top: -36px;background: #fff;
 -webkit-box-shadow: 0px 0px 6px 0px rgba(239,245,252,1);
 -moz-box-shadow: 0px 0px 6px 0px rgba(239,245,252,1);
 box-shadow: 0px 0px 6px 0px rgba(239,245,252,1);}

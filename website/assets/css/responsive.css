@@ -1,9 +1,35 @@
 @media (max-width:1820px) {
     .as_container{max-width: 96%;}
 }
+@media (max-width:1687px) {
+    .blog_list ul li a{line-height: 23px;font-size: 25px;}
+    .blog_list ul li h2{line-height: 31px;}
+    .right_news ul li a img{min-height: 318px;}
+    .testimonial_left .coll-2 ul li a img{min-height: 238px;}
+.testimonial_left .coll-1 ul li, .testimonial_left .coll-1 ul li img{min-height: 140px;}
+.right_news ul li{height:323px;}
+}
+
+
 @media (max-width:1440px) {
 .banner_content h1{line-height: 28px;}.banner_content ul li{    line-height: 22px;}
 .blog_list ul li a{line-height: 27px;font-size: 25px;}
+.home_banner_icon{background-position: 365px 100%;}
+.banner_content{padding: 212px 0px 0px 60px;}
+.right_news ul li{height:323px;}
+.testimonial_left .coll-2 ul li a img{min-height: 238px;}
+.testimonial_left .coll-1 ul li, .testimonial_left .coll-1 ul li img{min-height: 140px;}
+.blog_list ul li h2{line-height: 31px;}
+.right_news ul li a img{min-height: 318px;}
+.blog_list ul li a{line-height: 23px;}
+}
+
+@media(max-width:1366px){
+    .blog_list ul li h2{line-height: 31px;}  
+    .blog_list ul li a{font-size: 24px;} 
+    .left_news ul li:last-child{display: none;}
+    .testimonial_left .coll-1 ul li, .testimonial_left .coll-1 ul li img{min-height: 137px;}
+    .testimonial_left .coll-2 ul li a img{min-height: 229px;}
 }
 @media (max-width:1360px) {
 .blog_list li:nth-last-of-type(2),.blog_list li:nth-last-of-type(1){display: none;}
@@ -17,6 +43,7 @@
 .right_news ul li{width: 50%;}.banner_content{width: 100%;}
 .testimonial_post{width: 100%;    padding: 46px 34px 0px 39px;}.testimonial_left{    width: 100%;}
 .home_banner_br_none .srch_width_1019{width: 90%;}
+
 }
 
 
