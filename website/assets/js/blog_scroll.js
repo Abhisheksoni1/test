@@ -1,3 +1,5 @@
+
+
 function getCookie(name) {
   var value = "; " + document.cookie;
   var parts = value.split("; " + name + "=");
@@ -12,7 +14,7 @@ function webScroll(){
 if(log==='true'){
 //alert(true)
 var lastScrollTop = 0;
-
+var isScroll = false;
 $(window).scroll(function(event){
    var offset = $(this).scrollTop();
    var height_of_dom=document.getElementById('dom_height').clientHeight
@@ -27,15 +29,15 @@ $(window).scroll(function(event){
   // console.log(value_inPercent + '%')
   
    if (offset > lastScrollTop){
-   
       //alert('gfdgd')
        // downscroll code
        //console.log(offset)
       // console.log('up')
-      if(Math.round(value_inPercent)<=100){
+      if(Math.round(value_inPercent)<=100 && Math.round(value_inPercent)>percent && isScroll===false){
        // alert(percent)
+        isScroll = true;
         var xhr = new XMLHttpRequest();
-                xhr.open('POST', 'http://ec2-3-224-228-113.compute-1.amazonaws.com/api/v1/user-read-blog-create/', true);
+                xhr.open('POST', 'http://192.168.1.28:8005/api/v1/user-read-blog-create/', true);
 
                 // xhr.onload = function () {
                 //   // Request finished. Do processing here.
@@ -46,7 +48,8 @@ $(window).scroll(function(event){
                   blog_slug:blog_slug,
                   percent_read :Math.round(value_inPercent)
                  }
-                xhr.send(JSON.stringify(f_value));
+                  xhr.send(JSON.stringify(f_value));
+                isScroll = false
               
       }
     
