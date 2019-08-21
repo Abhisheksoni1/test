@@ -117,10 +117,10 @@ box-shadow: 0px 0px 6px 0px rgba(239,245,252,1);}
 
 .comnt_div .cmnt_user_img{height: 44px;width: 44px; float: left;overflow: hidden;border-radius: 50%;}
 .comnt_div .cmnt_user_img img{width: 100%;min-height: 44px;}
-.comnt_div h4{font-size: 16px;color: #314f74;float: left;margin-bottom: 1px;}
+.comnt_div h4{font-size: 16px;color: #314f74;float: left;margin-bottom: 1px;text-transform: capitalize;}
 .comnt_div .cmnt_date{font-size: 12px;color: #6b6b6b;float: right;}
 .comnt_div p{font-size: 14px;color: #000000;display: block; 
-overflow-wrap: break-word;
+overflow-wrap: break-word;float: left;
 word-wrap: break-word;
 
 -ms-word-break: break-all;
@@ -148,6 +148,7 @@ hyphens: auto;}
 .btn_write_blog{line-height: 20px;background: #009b80;color: #fff;font-size: 14px;padding:10px 30px;border: none;margin: 15px 30px 0;}
 .btn_post_comnt_cncl{color: #fff !important;margin: 0 0 0 15px;line-height: 40px;background: #314f74; font-size: 14px;padding:10px 30px;border: none;}
 .child_form{margin: 10px 0 0;}
+
 /*------        --------    BLog details page  ----------       */
 
 
@@ -169,7 +170,7 @@ hyphens: auto;}
 box-shadow: 0px 5px 9px 1px rgba(80,80,80,0.5);
 }
 /*--- blog details right side -----*/
-.child_2{ margin-top: 30px;padding-left: 60px;width: 100%;display: inline-block;}
+.child_2{ margin-top: 30px;padding-left: 0px;width: 100%;display: inline-block;}
 .blog_detail img{ width:100% !important;}
 
 
