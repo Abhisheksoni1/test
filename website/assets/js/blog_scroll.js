@@ -9,7 +9,7 @@ var log=getCookie('login')
 var token=getCookie('token')
 var blog_slug=getCookie('blog_slug')
 var percent=getCookie('per')
-console.log(percent)
+//console.log(percent)
 function webScroll(){
 if(log==='true'){
 //alert(true)
@@ -37,8 +37,8 @@ $(window).scroll(function(event){
        // alert(percent)
         isScroll = true;
         var xhr = new XMLHttpRequest();
-                xhr.open('POST', 'https://analyticssteps.com/backend/api/v1/user-read-blog-create/', true);
-                
+              xhr.open('POST', 'http://192.168.1.28:8005/backend/api/v1/user-read-blog-create/', true);
+                //xhr.open('POST', 'https://analyticssteps.com/backend/api/v1/user-read-blog-create/', true);
                 // xhr.onload = function () {
                 //   // Request finished. Do processing here.
                 // };

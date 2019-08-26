@@ -66,7 +66,7 @@
 
 @media (max-width:768px) {
 .latest_blog,.blog_list,.left_news,.right_news{width: 100%;}
-.latest_blog img{min-height: auto;}.latest_blog{margin-bottom: 20px;}
+.latest_blog img{min-height: auto;}.latest_blog{margin-bottom: 50px;}
 .new_section{margin: 50px 0px;}
 .home_banner{border-right: solid 40px #f8f8f8;}.as_controls{right: -40px;width: 40px;}
 .blog_control{padding: 8px 105px;right: -430px;}.banner_content{padding: 50px 0px 0px 50px;}
