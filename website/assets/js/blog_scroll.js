@@ -37,6 +37,7 @@ $(window).scroll(function(event){
          isScroll = true;
          var xhr = new XMLHttpRequest();
                   xhr.open('POST', 'http://13.235.204.31/backend/api/v1/user-read-blog-create/', true);
+                 // xhr.open('POST', 'http://192.168.1.28:8005/backend/api/v1/user-read-blog-create/', true)
                 //xhr.open('POST', 'https://analyticssteps.com/backend/api/v1/user-read-blog-create/', true);
                  // xhr.onload = function () {
                  //   // Request finished. Do processing here.
@@ -60,10 +61,11 @@ $(window).scroll(function(event){
     }
     lastScrollTop = offset;
     return 
-  }else{
+  }
+  // else{
   
-  return
-  } // end else 
+  // return
+  // } // end else 
 
 
  

@@ -87,8 +87,8 @@
 
 /* footer  */
 .left_footer {width: 35%;}.social_link ul{    width: 100%;}
-.right_footer .social_link{width: 40%; float: left;}.subcribe{float: right;}.right_footer{width: 65%;}
-.error_img_spce{max-width: 100%;}
+.right_footer .social_link{width: 40%; float: left;}.subcribe{float: right; width: 66%;}.right_footer{width: 65%;}
+.error_img_spce{max-width: 100%;}.right_footer .social_link{ width: 31%;}
 }
 
 @media (max-width:768px) {
