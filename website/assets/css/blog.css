@@ -184,7 +184,9 @@ box-shadow: 0px 5px 9px 1px rgba(80,80,80,0.5);
 /*--- blog details right side -----*/
 .child_2{ margin-top: 30px;padding-left: 0px;width: 100%;display: inline-block;}
 .blog_detail img{ width:100% !important;}
-
+.heading_14{font-size: 14px;}
+.content_12{font-size: 12px;}
+.img_caption{font-size: 10px;display: block;  text-align: center;}
 
 
 
