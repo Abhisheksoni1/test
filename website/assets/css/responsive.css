@@ -149,7 +149,7 @@ header{box-shadow: inset 0 2px 2px 0 rgba(0,0,0,.14), inset 0 3px 1px -2px rgba(
 @media (max-width:460px) {
 .left_nav{padding-left: 0;}
 .right_nav{right: 15px;}
-.blog_des{padding-left: 20px;}
+.blog_des{padding-right: 20px;}
 .right_nav .btn_usr_login{padding: 0 14px;line-height: 30px;font-size: 14px;}
 .right_nav font{display: none}
 /* .navbar-toggler-icon span{margin: 2px 0;} */
