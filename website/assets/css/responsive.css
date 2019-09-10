@@ -71,18 +71,18 @@
 .left_nav{width: 100%;}
 .navbar-toggler{float: left;}
 .logo{margin-left: auto;
-    margin-right: auto;
-    display: block;
-    float: none;}
-    .left_nav{    padding-top: 20px;padding-bottom: 0;}
+margin-right: auto;
+display: block;
+float: none;}
+.left_nav{    padding-top: 20px;padding-bottom: 0;}
 
 .navigation,.navigation ul li{width: 100%;}
 .navigation ul{padding-left: 0;background: #fff;}
 .navbar-toggler-icon span{    height: 3px;
-    width: 100%;
-    background: #314f74;
-    margin: 3px 0;
-    float: left;}
+width: 100%;
+background: #314f74;
+margin: 3px 0;
+float: left;}
 .navigation ul li a{padding:10px 0 10px 20px;display: block}
 
 /* footer  */
@@ -149,6 +149,7 @@ header{box-shadow: inset 0 2px 2px 0 rgba(0,0,0,.14), inset 0 3px 1px -2px rgba(
 @media (max-width:460px) {
 .left_nav{padding-left: 0;}
 .right_nav{right: 15px;}
+.blog_des{padding-left: 20px;}
 .right_nav .btn_usr_login{padding: 0 14px;line-height: 30px;font-size: 14px;}
 .right_nav font{display: none}
 /* .navbar-toggler-icon span{margin: 2px 0;} */
