@@ -45,7 +45,7 @@ $(window).scroll(function(event){
                  xhr.setRequestHeader('Content-Type', 'application/json');
                  xhr.setRequestHeader('Authorization', 'Bearer ' + token)
                  let f_value={
-                   blog_slug:blog_slug, 
+                   blog_slug:blog_slug,
                    percent_read :Math.round(value_inPercent)
                   }
                    xhr.send(JSON.stringify(f_value));
