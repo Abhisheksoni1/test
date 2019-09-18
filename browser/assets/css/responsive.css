@@ -60,7 +60,7 @@
 .navigation ul li a{padding-right: 25px;}
 .logo{width: 170px;margin-top: 6px;}.logo img{width: 100%;}
 .right_news ul li{width: 50%;}.banner_content{width: 100%;}
-.testimonial_post{width: 100%; padding: 46px 34px 0px 39px;}.testimonial_left{    width: 100%;}
+.testimonial_post{width: 100%; padding: 46px 34px 0px 39px;    min-height: auto;background: #314f75}.testimonial_left{    width: 100%;}
 .home_banner_br_none .srch_width_1019{width: 90%;}
 
 }
@@ -115,6 +115,7 @@ float: left;}
 .student_detail{display: block; width: 100%;float: none;}
 .star_rating{display: block;float: none;margin-top: 5px;}
 .test_mobile .owl-carousel .owl-item img{width: auto; display: inline-block;}
+.testimonial_post { background: url(../images/testimonial/testimonial_bg.jpg) top center no-repeat #314f75;}
 .student_name{font-size: 29px;}
 .navbar-toggler-icon span{background: #314f74;}
 /* .logo{position: static;margin-left: 0; width: 188px;} */
@@ -126,6 +127,7 @@ header{box-shadow: inset 0 2px 2px 0 rgba(0,0,0,.14), inset 0 3px 1px -2px rgba(
 
 }
 @media (max-width:767px) {
+
 .mt_130{margin-top: 30px;}
 .home_banner_br_none .search_close{right: 13px; top: 18px;}
 .home_banner_br_none .srch_width_1019{padding-top: 62px;}
