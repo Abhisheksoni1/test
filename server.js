@@ -115,6 +115,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+global['Event'] = null;
 // Express server
 const app = express__WEBPACK_IMPORTED_MODULE_1__();
 const PORT = process.env.PORT || 4000;
