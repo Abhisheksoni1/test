@@ -89,7 +89,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 .blog_detail_box .blog_img img{width: 100%;}
 .blog_detail_box .blog_date{margin:20px 0 45px;}
 .blog_detail_box .date{font-size: 14px;color: #9e9e9e;font-weight: 500;}
-.blog_detail_box .blogger_name{font-size: 14px;color: #314f74;font-weight: 500;}
+.blog_detail_box .blogger_name{font-size: 14px;color: #314f74;font-weight: 500;cursor: pointer;}
 .main_blog_ri,.blog_detail_box {font-family: 'roboto';}
 
 .blog_detail {margin: 40px 0 20px;font-family: 'roboto';}
